@@ -4,7 +4,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Safa Yavaş - Aviation Pilot & Software Creator" src="assets/banner-dark.svg" width="100%">
+  <img alt="Safa Yavaş - Aviation Pilot & Software Innovator" src="assets/banner-dark.svg" width="100%">
 </picture>
 
 <br/><br/>
@@ -38,16 +38,16 @@
 
 ### ✈️ Executive Summary
 
-I am an **Aviation Pilot** with a deep passion for software engineering, automation, and digital product building. Driven by precision, system safety, and clean engineering, I craft high-performance full-stack applications, AI integrations, and automated workflows.
+I am a professional **Aviation Pilot** with a strong passion for **Software Engineering, AI Systems, and Automation**. While flying is my core profession, I apply aviation-grade precision, checklist discipline, and systematic reliability to building high-performance modern web applications.
 
 ```typescript
-interface PilotDeveloper {
+interface PilotCreator {
   name: "Safa Yavaş";
   profession: "Aviation Pilot ✈️";
-  passion: "Full Stack Development & AI Systems";
-  coreFocus: ["Modern Web Tech", "Automation", "Software Architecture", "AI Systems"];
+  techPassion: "Full Stack Systems & AI Architecture";
+  coreFocus: ["Modern Web Tech", "Automation First", "Clean Architecture", "AI Integration"];
   philosophy: "Flight-grade precision. Build products, not demos.";
-  status: "Engineering Production Apps";
+  status: "Engineering Production Software";
 }
 ```
 
@@ -55,11 +55,11 @@ interface PilotDeveloper {
 
 ### 💡 Development Philosophy
 
+> **✈️ Flight-Grade Precision**  
+> Bringing checklist discipline, systematic safety, and high-reliability operational mindset from cockpit aviation into software development.
+
 > **⚡ Products, Not Demos**  
 > Focused on production-ready systems, offline support, resilience, and real-world utility over non-scalable prototypes.
-
-> **✈️ Flight-Grade Precision**  
-> Bringing checklist precision, high reliability, and systematic safety from aviation into software architecture.
 
 > **⚙️ Automation First**  
 > Eliminating redundant operational friction through CI/CD pipelines, automated testing, and background workers.
@@ -140,15 +140,7 @@ Privacy-focused health tracking software with cycle prediction algorithms, inter
 
 ---
 
-### 📊 GitHub Telemetry & Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=safayvs&show_icons=true&theme=dark&bg_color=0F172A&title_color=22D3EE&text_color=94A3B8&icon_color=7C3AED&border_color=ffffff0d&hide_border=false" alt="Safa Yavaş GitHub Stats" height="165" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=safayvs&layout=compact&theme=dark&bg_color=0F172A&title_color=10B981&text_color=94A3B8&border_color=ffffff0d&hide_border=false" alt="Top Languages" height="165" />
-</p>
-
-<br/>
+### 📊 GitHub Telemetry & Activity
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=safayvs&theme=dark&background=0F172A&stroke=ffffff0d&ring=7C3AED&fire=22D3EE&currStreakLabel=22D3EE" width="95%" alt="GitHub Streak Stats" />
