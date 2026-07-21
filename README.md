@@ -141,24 +141,17 @@ Privacy-focused health tracking software with cycle prediction algorithms, inter
 
 ### 📊 GitHub Telemetry & Stats
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=safayvs&show_icons=true&theme=dark&bg_color=0F172A&title_color=22D3EE&text_color=94A3B8&icon_color=7C3AED&border_color=ffffff0d&hide_border=false" alt="Safa Yavaş GitHub Stats" height="165" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=safayvs&layout=compact&theme=dark&bg_color=0F172A&title_color=10B981&text_color=94A3B8&border_color=ffffff0d&hide_border=false" alt="Top Languages" height="165" />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=safayvs&show_icons=true&theme=dark&bg_color=0F172A&title_color=22D3EE&text_color=94A3B8&icon_color=7C3AED&border_color=ffffff0d&hide_border=false" width="49%" alt="Safa Yavaş GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=safayvs&layout=compact&theme=dark&bg_color=0F172A&title_color=10B981&text_color=94A3B8&border_color=ffffff0d&hide_border=false" width="49%" alt="Top Languages" />
+<br/>
 
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=safayvs&theme=dark&background=0F172A&stroke=ffffff0d&ring=7C3AED&fire=22D3EE&currStreakLabel=22D3EE" width="98%" alt="GitHub Streak Stats" />
-
-</div>
-
----
-
-### 🐍 Contribution Activity Matrix
-
-<div align="center">
-  <img alt="GitHub Contribution Snake Grid" src="https://raw.githubusercontent.com/safayvs/safayvs/output/github-contribution-grid-snake-dark.svg" width="100%">
-</div>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=safayvs&theme=dark&background=0F172A&stroke=ffffff0d&ring=7C3AED&fire=22D3EE&currStreakLabel=22D3EE" width="95%" alt="GitHub Streak Stats" />
+</p>
 
 ---
 
