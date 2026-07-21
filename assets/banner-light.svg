@@ -81,7 +81,6 @@
       <stop offset="100%" stop-color="rgba(255, 255, 255, 0.0)" />
     </linearGradient>
 
-    <!-- Soft Drop Shadow for Glass Cards -->
     <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.06" />
     </filter>
@@ -174,7 +173,7 @@
         <circle cx="58" cy="87" r="5" fill="#EF4444" opacity="0.85" />
         <circle cx="74" cy="87" r="5" fill="#F59E0B" opacity="0.85" />
         <circle cx="90" cy="87" r="5" fill="#10B981" opacity="0.85" />
-        <text x="235" y="91" fill="#475569" font-size="11" font-weight="600" text-anchor="middle" class="mono">safay_neural_core.ascii</text>
+        <text x="235" y="91" fill="#475569" font-size="11" font-weight="600" text-anchor="middle" class="mono">pilot_cockpit_core.ascii</text>
 
         <!-- ASCII Content Container with Scanline -->
         <g clip-path="url(#ascii-clip)">
@@ -239,19 +238,19 @@
               </text>
               <text x="0" y="235" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.3s" fill="freeze" />
-                [SYSTEM]: SAFA_YAVAS_NEURAL_LINK
+                [ROLE  ]: AVIATION_PILOT_✈️
               </text>
               <text x="0" y="255" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.45s" fill="freeze" />
-                [STATUS]: SENIOR_SOFTWARE_ENGINEER
+                [PASSION]: SOFTWARE_DEVELOPMENT
               </text>
               <text x="0" y="275" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.6s" fill="freeze" />
-                [STACK ]: FULL_STACK_DEV_&amp;_AI_ARCH
+                [MODE  ]: FLIGHT_GRADE_PRECISION
               </text>
               <text x="0" y="295" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.75s" fill="freeze" />
-                &gt; INITIALIZING SAFAYVS_PROFILE...
+                &gt; SYSTEM_READY...
               </text>
             </g>
           </g>
@@ -279,7 +278,7 @@
         <circle cx="483" cy="87" r="5" fill="#EF4444" opacity="0.85" />
         <circle cx="499" cy="87" r="5" fill="#F59E0B" opacity="0.85" />
         <circle cx="515" cy="87" r="5" fill="#10B981" opacity="0.85" />
-        <text x="802" y="91" fill="#475569" font-size="11" font-weight="600" text-anchor="middle" class="mono">safayvas_profile.sh</text>
+        <text x="802" y="91" fill="#475569" font-size="11" font-weight="600" text-anchor="middle" class="mono">safayvas_cockpit.sh</text>
 
         <!-- TERMINAL CONTENT -->
         <g transform="translate(490, 135)">
@@ -288,7 +287,7 @@
           <g opacity="0">
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.2s" fill="freeze" />
             <text x="0" y="0" fill="#475569" font-size="14" font-weight="600" class="mono">
-              <tspan fill="#2563EB">safayvas@kernel</tspan>:<tspan fill="#06B6D4">~</tspan>$ ./init_engineer.sh
+              <tspan fill="#2563EB">pilot@safayvas</tspan>:<tspan fill="#06B6D4">~</tspan>$ ./init_cockpit.sh
             </text>
             
             <text x="0" y="32" fill="#0F172A" font-size="28" font-weight="800" letter-spacing="-0.5">
@@ -300,38 +299,38 @@
           <g transform="translate(0, 62)" class="mono" font-size="16" font-weight="600">
             <text x="0" y="0" fill="#10B981">&gt;</text>
 
-            <!-- Phrase 1: Software Engineer -->
+            <!-- Phrase 1: Aviation Pilot -->
             <g opacity="0">
               <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="0.8s" />
-              <text x="20" y="0" fill="#2563EB">Software Engineer</text>
-              <rect x="195" y="-13" width="9" height="17" fill="#2563EB">
+              <text x="20" y="0" fill="#2563EB">Aviation Pilot ✈️</text>
+              <rect x="175" y="-13" width="9" height="17" fill="#2563EB">
                 <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
               </rect>
             </g>
 
-            <!-- Phrase 2: Full Stack Architecture -->
+            <!-- Phrase 2: Software Creator & Maker -->
             <g opacity="0">
               <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="3.8s" />
-              <text x="20" y="0" fill="#06B6D4">Full Stack Architect</text>
-              <rect x="220" y="-13" width="9" height="17" fill="#06B6D4">
+              <text x="20" y="0" fill="#06B6D4">Software Creator &amp; Maker</text>
+              <rect x="260" y="-13" width="9" height="17" fill="#06B6D4">
                 <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
               </rect>
             </g>
 
-            <!-- Phrase 3: AI-Assisted Developer -->
+            <!-- Phrase 3: Full Stack & AI Enthusiast -->
             <g opacity="0">
               <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="6.8s" />
-              <text x="20" y="0" fill="#10B981">AI-Assisted Developer</text>
-              <rect x="225" y="-13" width="9" height="17" fill="#10B981">
+              <text x="20" y="0" fill="#10B981">Full Stack &amp; AI Systems</text>
+              <rect x="235" y="-13" width="9" height="17" fill="#10B981">
                 <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
               </rect>
             </g>
 
-            <!-- Phrase 4: Automation & Systems Lead -->
+            <!-- Phrase 4: Automation & System Safety -->
             <g opacity="0">
               <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="9.8s" />
-              <text x="20" y="0" fill="#D97706">Automation &amp; Systems Lead</text>
-              <rect x="260" y="-13" width="9" height="17" fill="#D97706">
+              <text x="20" y="0" fill="#D97706">Automation &amp; System Safety</text>
+              <rect x="280" y="-13" width="9" height="17" fill="#D97706">
                 <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
               </rect>
             </g>
@@ -343,20 +342,20 @@
           <!-- 3. SEQUENTIAL DETAILS LIST -->
           <g transform="translate(0, 108)" font-size="13" font-weight="500">
             
-            <!-- Focus -->
+            <!-- Profession -->
             <g opacity="0">
               <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.0s" fill="freeze" />
               <animateTransform attributeName="transform" type="translate" values="-10,0; 0,0" dur="0.4s" begin="1.0s" fill="freeze" />
-              <text x="0" y="0" fill="#475569" class="mono" font-weight="600">🎯 Core Focus:</text>
-              <text x="130" y="0" fill="#0F172A">Full Stack, AI Systems &amp; Software Architecture</text>
+              <text x="0" y="0" fill="#475569" class="mono" font-weight="600">✈️ Profession:</text>
+              <text x="130" y="0" fill="#0F172A">Aviation Pilot (Software Innovator)</text>
             </g>
 
             <!-- Philosophy -->
             <g opacity="0" transform="translate(0, 24)">
               <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.2s" fill="freeze" />
               <animateTransform attributeName="transform" type="translate" values="-10,24; 0,24" dur="0.4s" begin="1.2s" fill="freeze" />
-              <text x="0" y="0" fill="#475569" class="mono" font-weight="600">💡 Philosophy:</text>
-              <text x="130" y="0" fill="#0F172A">Build products, not demos. Clean Architecture first.</text>
+              <text x="0" y="0" fill="#475569" class="mono" font-weight="600">💡 Mindset:</text>
+              <text x="130" y="0" fill="#0F172A">Flight-grade precision. Build products, not demos.</text>
             </g>
 
             <!-- Current Stack -->
@@ -391,64 +390,64 @@
           <g transform="translate(0, 248)" opacity="0">
             <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.0s" fill="freeze" />
             
-            <text x="0" y="0" fill="#475569" class="mono" font-size="12" font-weight="700" letter-spacing="1">PRIMARY TECH STACK</text>
+            <text x="0" y="0" fill="#475569" class="mono" font-size="12" font-weight="700" letter-spacing="1">STACK &amp; INTERESTS</text>
 
             <!-- Skill Pills Grid -->
             <g transform="translate(0, 15)">
               
               <g class="pill-hover" transform="translate(0, 0)">
+                <rect width="84" height="26" rx="13" fill="#FFFFFF" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.5" />
+                <text x="42" y="17" fill="#0891B2" font-size="11" font-weight="600" text-anchor="middle" class="mono">Aviation✈️</text>
+              </g>
+
+              <g class="pill-hover" transform="translate(92, 0)">
                 <rect width="70" height="26" rx="13" fill="#FFFFFF" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.5" />
                 <text x="35" y="17" fill="#0891B2" font-size="11" font-weight="600" text-anchor="middle" class="mono">React</text>
               </g>
 
-              <g class="pill-hover" transform="translate(78, 0)">
+              <g class="pill-hover" transform="translate(170, 0)">
                 <rect width="76" height="26" rx="13" fill="#FFFFFF" stroke="#0F172A" stroke-width="1" stroke-opacity="0.4" />
                 <text x="38" y="17" fill="#0F172A" font-size="11" font-weight="600" text-anchor="middle" class="mono">Next.js</text>
               </g>
 
-              <g class="pill-hover" transform="translate(162, 0)">
+              <g class="pill-hover" transform="translate(254, 0)">
                 <rect width="94" height="26" rx="13" fill="#FFFFFF" stroke="#2563EB" stroke-width="1" stroke-opacity="0.5" />
                 <text x="47" y="17" fill="#2563EB" font-size="11" font-weight="600" text-anchor="middle" class="mono">TypeScript</text>
               </g>
 
-              <g class="pill-hover" transform="translate(264, 0)">
+              <g class="pill-hover" transform="translate(356, 0)">
                 <rect width="84" height="26" rx="13" fill="#FFFFFF" stroke="#10B981" stroke-width="1" stroke-opacity="0.5" />
                 <text x="42" y="17" fill="#059669" font-size="11" font-weight="600" text-anchor="middle" class="mono">Supabase</text>
               </g>
 
-              <g class="pill-hover" transform="translate(356, 0)">
+              <g class="pill-hover" transform="translate(448, 0)">
                 <rect width="92" height="26" rx="13" fill="#FFFFFF" stroke="#D97706" stroke-width="1" stroke-opacity="0.5" />
                 <text x="46" y="17" fill="#D97706" font-size="11" font-weight="600" text-anchor="middle" class="mono">Cloudflare</text>
               </g>
 
-              <g class="pill-hover" transform="translate(456, 0)">
+              <g class="pill-hover" transform="translate(0, 34)">
                 <rect width="74" height="26" rx="13" fill="#FFFFFF" stroke="#2563EB" stroke-width="1" stroke-opacity="0.5" />
                 <text x="37" y="17" fill="#2563EB" font-size="11" font-weight="600" text-anchor="middle" class="mono">Docker</text>
               </g>
 
-              <g class="pill-hover" transform="translate(0, 34)">
+              <g class="pill-hover" transform="translate(82, 34)">
                 <rect width="58" height="26" rx="13" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.5" />
                 <text x="29" y="17" fill="#7C3AED" font-size="11" font-weight="600" text-anchor="middle" class="mono">PWA</text>
               </g>
 
-              <g class="pill-hover" transform="translate(66, 34)">
+              <g class="pill-hover" transform="translate(148, 34)">
                 <rect width="84" height="26" rx="13" fill="#FFFFFF" stroke="#4F46E5" stroke-width="1" stroke-opacity="0.5" />
                 <text x="42" y="17" fill="#4F46E5" font-size="11" font-weight="600" text-anchor="middle" class="mono">PostgreSQL</text>
               </g>
 
-              <g class="pill-hover" transform="translate(158, 34)">
+              <g class="pill-hover" transform="translate(240, 34)">
                 <rect width="72" height="26" rx="13" fill="#FFFFFF" stroke="#0284C7" stroke-width="1" stroke-opacity="0.5" />
                 <text x="36" y="17" fill="#0284C7" font-size="11" font-weight="600" text-anchor="middle" class="mono">Python</text>
               </g>
 
-              <g class="pill-hover" transform="translate(238, 34)">
+              <g class="pill-hover" transform="translate(320, 34)">
                 <rect width="88" height="26" rx="13" fill="#FFFFFF" stroke="#10B981" stroke-width="1" stroke-opacity="0.5" />
                 <text x="44" y="17" fill="#059669" font-size="11" font-weight="600" text-anchor="middle" class="mono">Automation</text>
-              </g>
-
-              <g class="pill-hover" transform="translate(334, 34)">
-                <rect width="108" height="26" rx="13" fill="#FFFFFF" stroke="#DB2777" stroke-width="1" stroke-opacity="0.5" />
-                <text x="54" y="17" fill="#DB2777" font-size="11" font-weight="600" text-anchor="middle" class="mono">Clean Architecture</text>
               </g>
 
             </g>
