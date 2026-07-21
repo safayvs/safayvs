@@ -4,14 +4,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Safa Yavaş - Senior Software Engineer" src="assets/banner-dark.svg" width="100%">
+  <img alt="Safa Yavaş - Aviation Pilot & Software Creator" src="assets/banner-dark.svg" width="100%">
 </picture>
 
 <br/><br/>
 
 <!-- TYPING SVG BADGE -->
 <a href="https://github.com/safayvs">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&height=50&lines=Software+Engineer;Full+Stack+Architecture;AI-Assisted+Development;Building+Products%2C+Not+Demos" alt="Typing Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&height=50&lines=Aviation+Pilot+%E2%9C%88%EF%B8%8F;Software+Innovator+%26+Maker;AI-Assisted+Development;Building+Products%2C+Not+Demos" alt="Typing Header" />
 </a>
 
 <br/>
@@ -36,17 +36,18 @@
 
 ---
 
-### 👨‍💻 Executive Summary
+### ✈️ Executive Summary
 
-I am a **Software Engineer** specializing in high-throughput **Full Stack Applications**, **AI-Assisted Development**, and robust **Software Architecture**. Focused on crafting high-performance digital products, automating complex workflows, and deploying clean, resilient codebases.
+I am an **Aviation Pilot** with a deep passion for software engineering, automation, and digital product building. Driven by precision, system safety, and clean engineering, I craft high-performance full-stack applications, AI integrations, and automated workflows.
 
 ```typescript
-interface SoftwareEngineer {
+interface PilotDeveloper {
   name: "Safa Yavaş";
-  role: "Software Engineer & Full Stack Architect";
-  coreFocus: ["Full Stack Development", "AI Assisted Systems", "Software Architecture", "Automation"];
-  philosophy: "Build products, not demos. Clean Architecture first.";
-  status: "Designing Next-Gen Platforms";
+  profession: "Aviation Pilot ✈️";
+  passion: "Full Stack Development & AI Systems";
+  coreFocus: ["Modern Web Tech", "Automation", "Software Architecture", "AI Systems"];
+  philosophy: "Flight-grade precision. Build products, not demos.";
+  status: "Engineering Production Apps";
 }
 ```
 
@@ -57,8 +58,8 @@ interface SoftwareEngineer {
 > **⚡ Products, Not Demos**  
 > Focused on production-ready systems, offline support, resilience, and real-world utility over non-scalable prototypes.
 
-> **🏗️ Clean Architecture First**  
-> Decoupled modules, strict type safety, predictable state management, and enterprise-grade maintainability.
+> **✈️ Flight-Grade Precision**  
+> Bringing checklist precision, high reliability, and systematic safety from aviation into software architecture.
 
 > **⚙️ Automation First**  
 > Eliminating redundant operational friction through CI/CD pipelines, automated testing, and background workers.
