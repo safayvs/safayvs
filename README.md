@@ -4,14 +4,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="Safa Yavaş - Aviation Pilot & Software Innovator" src="assets/banner-dark.svg" width="100%">
+  <img alt="Safa Yavaş - Aviation Pilot & Self-Taught Tech Enthusiast" src="assets/banner-dark.svg" width="100%">
 </picture>
 
 <br/><br/>
 
 <!-- TYPING SVG BADGE -->
 <a href="https://github.com/safayvs">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&height=50&lines=Aviation+Pilot+%E2%9C%88%EF%B8%8F;Software+Innovator+%26+Maker;AI-Assisted+Development;Building+Products%2C+Not+Demos" alt="Typing Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&height=50&lines=Aviation+Pilot+%E2%9C%88%EF%B8%8F;Self-Taught+Tech+Enthusiast;Building+Personal+Products;AI+%26+Automation+Explorer" alt="Typing Header" />
 </a>
 
 <br/>
@@ -36,111 +36,113 @@
 
 ---
 
-### ✈️ Executive Summary
+### ✈️ About Me & Tech Journey
 
-I am a professional **Aviation Pilot** with a strong passion for **Software Engineering, AI Systems, and Automation**. While flying is my core profession, I apply aviation-grade precision, checklist discipline, and systematic reliability to building high-performance modern web applications.
+My primary profession is an **Aviation Pilot** ✈️. I am not a professional software engineer by trade, but rather a **passionate self-taught technology enthusiast & product maker**. 
+
+Driven by curiosity and a desire to automate everyday problems, I dedicate my free time to learning modern web engineering, exploring AI systems, and building production-grade personal projects with flight-grade discipline.
 
 ```typescript
 interface PilotCreator {
   name: "Safa Yavaş";
   profession: "Aviation Pilot ✈️";
-  techPassion: "Full Stack Systems & AI Architecture";
-  coreFocus: ["Modern Web Tech", "Automation First", "Clean Architecture", "AI Integration"];
-  philosophy: "Flight-grade precision. Build products, not demos.";
-  status: "Engineering Production Software";
+  techStatus: "Self-Taught Creator & Product Maker";
+  passions: ["Modern Web Technologies", "AI & Automations", "Product Design"];
+  philosophy: "Flight-grade discipline. Continuous learning. Build to solve problems.";
+  currentGoal: "Engineering high-quality personal projects";
 }
 ```
 
 ---
 
-### 💡 Development Philosophy
+### 💡 Core Principles
 
-> **✈️ Flight-Grade Precision**  
-> Bringing checklist discipline, systematic safety, and high-reliability operational mindset from cockpit aviation into software development.
+> **✈️ Flight-Grade Discipline**  
+> Bringing checklist precision, systematic thinking, and operational safety from the cockpit into building software.
 
-> **⚡ Products, Not Demos**  
-> Focused on production-ready systems, offline support, resilience, and real-world utility over non-scalable prototypes.
+> **⚡ Learning by Building**  
+> Focused on creating functional, production-ready applications rather than basic demos or tutorials.
 
-> **⚙️ Automation First**  
-> Eliminating redundant operational friction through CI/CD pipelines, automated testing, and background workers.
+> **⚙️ Automation & Efficiency**  
+> Automating routine tasks and workflows through modern serverless tools, background workers, and AI assistance.
 
-> **🚀 Performance & UX Precision**  
-> Sub-100ms response targets, glassmorphic modern UI design, seamless responsiveness, and pixel-perfect ergonomics.
-
----
-
-### 🚀 Featured Projects
-
-#### 📊 1. HASILAT TUT — Production-Ready Revenue Tracking Platform
-High-reliability financial & revenue tracking PWA built for offline resilience, real-time analytics, and instant cloud sync.
-
-`PWA` · `Supabase` · `Cloudflare` · `Docker` · `Offline Support` · `Dashboard` · `Analytics` · `Authentication` · `Modular Architecture`
-
-- Progressive Web App with offline-first indexing and caching layers
-- Role-based authentication & encrypted database persistence
-- Interactive dashboard with instant modular reporting and telemetries
+> **🚀 Clean Design & UX**  
+> Crafting sleek, glassmorphic, and ultra-responsive user interfaces with sub-100ms performance targets.
 
 ---
 
-#### 📦 2. Stocker — Modern Inventory & Stock Management Platform
-Cloud-ready stock and supply chain control engine featuring real-time reporting, automated re-stock alerts, and responsive UI.
+### 🚀 Featured Personal Projects
+
+#### 📊 1. HASILAT TUT — Revenue Tracking Platform
+A reliable financial & revenue tracking Progressive Web App (PWA) built for offline resilience, real-time analytics, and instant cloud synchronization.
+
+`PWA` · `Supabase` · `Cloudflare` · `Docker` · `Offline Support` · `Dashboard` · `Analytics`
+
+- Progressive Web App engineered with offline-first indexing and caching
+- Secure authentication & encrypted database persistence
+- Interactive analytics dashboard with instant modular reporting
+
+---
+
+#### 📦 2. Stocker — Inventory & Stock Management Engine
+A cloud-ready stock and supply chain control system featuring real-time reporting, automated re-stock alerts, and responsive interface design.
 
 `Inventory` · `Reports` · `Analytics` · `Dashboard` · `Cloud Ready` · `Responsive UI`
 
 - Multi-warehouse inventory flow tracking & batch management
 - Real-time stock audit logging & telemetry analytics
-- Glassmorphic, ultra-responsive dashboard interface
+- Ultra-responsive, modern dashboard interface
 
 ---
 
-#### 🤖 3. Telegram Bot Platform — High-Throughput Automation Platform
-Asynchronous event-driven bot platform for automated notifications, background task processing, and PostgreSQL integration.
+#### 🤖 3. Telegram Bot Platform — Event-Driven Automation System
+An asynchronous event-driven bot platform for automated notifications, background task processing, and database integration.
 
 `Telegram API` · `Supabase` · `Automation` · `Notifications` · `PostgreSQL` · `Services`
 
-- Real-time multi-channel automated broadcast queue
-- Serverless background cron execution & service orchestrator
-- Secure database persistence & service layer pattern
+- Real-time multi-channel automated notification queue
+- Serverless background cron execution & service orchestration
+- Reliable database persistence layer
 
 ---
 
-#### 🌸 4. Adet Takip — Modern Women's Health Application
-Privacy-focused health tracking software with cycle prediction algorithms, interactive calendar metrics, and ergonomic UX.
+#### 🌸 4. Adet Takip — Women's Health & Cycle Tracker
+A privacy-focused health tracking application featuring cycle prediction models, interactive calendar metrics, and ergonomic UX.
 
 `Cycle Tracking` · `Calendar` · `Statistics` · `Prediction` · `Modern UX` · `Responsive Design`
 
 - Interactive visual calendar & cycle phase prediction model
-- Local data encryption & privacy-first client architecture
-- Fluid micro-animations & intuitive user experience
+- Local data privacy & client-side encryption
+- Fluid micro-animations and intuitive user experience
 
 ---
 
-### 🛠️ Tech Stack & Ecosystem
+### 🛠️ Technologies & Tools I Explore
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,python,postgres,supabase,cloudflare,docker,tailwind,git,figma&perline=6" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,python,postgres,supabase,cloudflare,docker,tailwind,git,figma&perline=6" alt="Tech Icons" />
 </p>
 
-| Category | Technologies |
+| Category | Explored Stack |
 | :--- | :--- |
-| **Core & Frontend** | React, Next.js 14, TypeScript, Tailwind CSS, HTML5, PWA |
-| **Backend & Databases** | Node.js, Python, PostgreSQL, Supabase, REST APIs, GraphQL |
-| **Cloud & DevOps** | Docker, Cloudflare, GitHub Actions, Linux, Serverless |
-| **Architecture & Design** | Clean Architecture, System Design, Figma, Automation |
+| **Frontend & Mobile** | React, Next.js 14, TypeScript, Tailwind CSS, HTML5, PWA |
+| **Backend & Database** | Node.js, Python, PostgreSQL, Supabase, REST APIs |
+| **DevOps & Cloud** | Docker, Cloudflare, GitHub Actions, Linux, Serverless |
+| **Design & Workflow** | System Design, Figma, CI/CD, AI Automation |
 
 ---
 
 ### 🔄 Development Workflow
 
 ```
-[ 💡 Architecture & Specs ] ──► [ 🎨 UI/UX & Schemas ] ──► [ ⚙️ Clean Implementation ]
+[ 💡 Idea & Requirements ] ──► [ 🎨 UI/UX & Data Schema ] ──► [ ⚙️ Implementation ]
                                                                       │
-[ 📊 Analytics & Iteration ] ◄── [ 🚀 Cloudflare / Docker ] ◄── [ 🧪 CI/CD & Security ]
+[ 📊 Feedback & Iteration ] ◄── [ 🚀 Deployment ] ◄── [ 🧪 Testing & Refinement ]
 ```
 
 ---
 
-### 📊 GitHub Telemetry & Activity
+### 📊 GitHub Telemetry
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=safayvs&theme=dark&background=0F172A&stroke=ffffff0d&ring=7C3AED&fire=22D3EE&currStreakLabel=22D3EE" width="95%" alt="GitHub Streak Stats" />
@@ -148,19 +150,19 @@ Privacy-focused health tracking software with cycle prediction algorithms, inter
 
 ---
 
-### 🎯 Goals & Roadmap
+### 🎯 Current Focus & Learning Goals
 
-- [x] **HASILAT TUT**: Complete offline PWA sync layer and automated reporting engine.
-- [x] **Stocker**: Deploy cloud inventory telemetry dashboard.
-- [ ] **AI System Integration**: Expand automated AI agents into web workflows.
-- [ ] **Open Source Contributions**: Publish modular clean architecture templates for Next.js & Supabase.
+- [x] **HASILAT TUT**: Completed offline PWA sync layer and automated reporting engine.
+- [x] **Stocker**: Deployed cloud inventory management system.
+- [ ] **AI Workflows**: Integrating automated AI agents and LLM APIs into web apps.
+- [ ] **Open Source**: Sharing reusable templates and tools with the developer community.
 
 ---
 
 <div align="center">
 
 <p fill="#94A3B8">
-  Designed &amp; Engineered with precision by <b>Safa Yavaş</b> • © 2026
+  Designed &amp; Built with care by <b>Safa Yavaş</b> • © 2026
 </p>
 
 </div>

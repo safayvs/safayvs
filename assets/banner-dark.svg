@@ -155,7 +155,6 @@
 
     <!-- ==================== LEFT SIDE: ASCII PORTRAIT PANEL ==================== -->
     <g transform="translate(0,0)">
-      <!-- Subtle Floating Animation for ASCII Card -->
       <g>
         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite" ease="easeInOut" />
 
@@ -240,15 +239,15 @@
               </text>
               <text x="0" y="255" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.45s" fill="freeze" />
-                [PASSION]: SOFTWARE_DEVELOPMENT
+                [STATUS]: TECH_PASSIONATE_MAKER
               </text>
               <text x="0" y="275" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.6s" fill="freeze" />
-                [MODE  ]: FLIGHT_GRADE_PRECISION
+                [MODE  ]: CONTINUOUS_LEARNING
               </text>
               <text x="0" y="295" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.75s" fill="freeze" />
-                &gt; SYSTEM_READY...
+                &gt; BUILDING_PERSONAL_PROJECTS...
               </text>
             </g>
           </g>
@@ -305,29 +304,29 @@
             </rect>
           </g>
 
-          <!-- Phrase 2: Software Creator & Maker -->
+          <!-- Phrase 2: Self-Taught Tech Enthusiast -->
           <g opacity="0">
             <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="3.8s" />
-            <text x="20" y="0" fill="#7C3AED">Software Creator &amp; Maker</text>
-            <rect x="260" y="-13" width="9" height="17" fill="#7C3AED">
+            <text x="20" y="0" fill="#7C3AED">Self-Taught Tech Enthusiast</text>
+            <rect x="285" y="-13" width="9" height="17" fill="#7C3AED">
               <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
             </rect>
           </g>
 
-          <!-- Phrase 3: Full Stack & AI Enthusiast -->
+          <!-- Phrase 3: Building Personal Products -->
           <g opacity="0">
             <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="6.8s" />
-            <text x="20" y="0" fill="#10B981">Full Stack &amp; AI Systems</text>
-            <rect x="235" y="-13" width="9" height="17" fill="#10B981">
+            <text x="20" y="0" fill="#10B981">Building Personal Products</text>
+            <rect x="275" y="-13" width="9" height="17" fill="#10B981">
               <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
             </rect>
           </g>
 
-          <!-- Phrase 4: Automation Enthusiast -->
+          <!-- Phrase 4: AI & Automation Explorer -->
           <g opacity="0">
             <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="9.8s" />
-            <text x="20" y="0" fill="#F59E0B">Automation &amp; System Safety</text>
-            <rect x="280" y="-13" width="9" height="17" fill="#F59E0B">
+            <text x="20" y="0" fill="#F59E0B">AI &amp; Automation Explorer</text>
+            <rect x="250" y="-13" width="9" height="17" fill="#F59E0B">
               <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
             </rect>
           </g>
@@ -344,22 +343,22 @@
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.0s" fill="freeze" />
             <animateTransform attributeName="transform" type="translate" values="-10,0; 0,0" dur="0.4s" begin="1.0s" fill="freeze" />
             <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">✈️ Profession:</text>
-            <text x="130" y="0" fill="#F8FAFC">Aviation Pilot (Software Innovator)</text>
+            <text x="130" y="0" fill="#F8FAFC">Aviation Pilot</text>
           </g>
 
-          <!-- Philosophy -->
+          <!-- Tech Journey -->
           <g opacity="0" transform="translate(0, 24)">
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.2s" fill="freeze" />
             <animateTransform attributeName="transform" type="translate" values="-10,24; 0,24" dur="0.4s" begin="1.2s" fill="freeze" />
-            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">💡 Mindset:</text>
-            <text x="130" y="0" fill="#F8FAFC">Flight-grade precision. Build products, not demos.</text>
+            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">💡 Tech Journey:</text>
+            <text x="130" y="0" fill="#F8FAFC">Self-Taught &amp; Passionate Product Maker</text>
           </g>
 
-          <!-- Current Stack -->
+          <!-- Stack Tech -->
           <g opacity="0" transform="translate(0, 48)">
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.4s" fill="freeze" />
             <animateTransform attributeName="transform" type="translate" values="-10,48; 0,48" dur="0.4s" begin="1.4s" fill="freeze" />
-            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">⚡ Stack Tech:</text>
+            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">⚡ Tech Stack:</text>
             <text x="130" y="0" fill="#F8FAFC">Next.js, TypeScript, Supabase, Cloudflare, Docker</text>
           </g>
 
