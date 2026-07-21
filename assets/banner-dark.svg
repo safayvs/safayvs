@@ -43,24 +43,24 @@
 
     <!-- Main Linear Accent Gradient (Dark) -->
     <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7C3AED">
-        <animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="10s" repeatCount="indefinite" />
+      <stop offset="0%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#7C3AED;#10B981;#22D3EE" dur="10s" repeatCount="indefinite" />
       </stop>
-      <stop offset="50%" stop-color="#22D3EE">
-        <animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="10s" repeatCount="indefinite" />
+      <stop offset="50%" stop-color="#7C3AED">
+        <animate attributeName="stop-color" values="#7C3AED;#10B981;#22D3EE;#7C3AED" dur="10s" repeatCount="indefinite" />
       </stop>
       <stop offset="100%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="10s" repeatCount="indefinite" />
+        <animate attributeName="stop-color" values="#10B981;#22D3EE;#7C3AED;#10B981" dur="10s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
     <!-- ASCII Gradient Dynamic -->
     <linearGradient id="ascii-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#22D3EE">
-        <animate attributeName="stop-color" values="#22D3EE;#7C3AED;#10B981;#22D3EE" dur="8s" repeatCount="indefinite" />
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#818CF8;#34D399;#38BDF8" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#7C3AED">
-        <animate attributeName="stop-color" values="#7C3AED;#10B981;#22D3EE;#7C3AED" dur="8s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#818CF8">
+        <animate attributeName="stop-color" values="#818CF8;#34D399;#38BDF8;#818CF8" dur="8s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
@@ -68,7 +68,7 @@
     <linearGradient id="border-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="rgba(255,255,255,0.05)" />
       <stop offset="30%" stop-color="rgba(255,255,255,0.05)" />
-      <stop offset="50%" stop-color="rgba(34, 211, 238, 0.8)" />
+      <stop offset="50%" stop-color="rgba(56, 189, 248, 0.8)" />
       <stop offset="70%" stop-color="rgba(124, 58, 237, 0.8)" />
       <stop offset="100%" stop-color="rgba(255,255,255,0.05)" />
       <animateTransform attributeName="gradientTransform" type="translate" from="-600 0" to="1200 0" dur="5s" repeatCount="indefinite" />
@@ -131,7 +131,7 @@
 
     <!-- Floating Background Particles -->
     <g opacity="0.6">
-      <circle cx="150" cy="120" r="1.5" fill="#22D3EE">
+      <circle cx="150" cy="120" r="1.5" fill="#38BDF8">
         <animate attributeName="cy" values="120;100;120" dur="4s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite" />
       </circle>
@@ -139,11 +139,11 @@
         <animate attributeName="cy" values="450;420;450" dur="6s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.3;0.9;0.3" dur="6s" repeatCount="indefinite" />
       </circle>
-      <circle cx="720" cy="100" r="1.5" fill="#10B981">
+      <circle cx="720" cy="100" r="1.5" fill="#34D399">
         <animate attributeName="cy" values="100;130;100" dur="5s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.2;0.7;0.2" dur="5s" repeatCount="indefinite" />
       </circle>
-      <circle cx="1050" cy="480" r="2" fill="#22D3EE">
+      <circle cx="1050" cy="480" r="2" fill="#38BDF8">
         <animate attributeName="cy" values="480;450;480" dur="7s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.4;1;0.4" dur="7s" repeatCount="indefinite" />
       </circle>
@@ -153,7 +153,7 @@
     <rect x="1" y="1" width="1178" height="608" rx="23" fill="none" stroke="url(#border-shimmer)" stroke-width="2" />
     <rect x="1" y="1" width="1178" height="608" rx="23" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
 
-    <!-- ==================== LEFT SIDE: ASCII PORTRAIT PANEL ==================== -->
+    <!-- ==================== LEFT SIDE: ASCII COCKPIT ART PANEL ==================== -->
     <g transform="translate(0,0)">
       <g>
         <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite" ease="easeInOut" />
@@ -170,84 +170,84 @@
         <circle cx="58" cy="87" r="5" fill="#EF4444" opacity="0.8" />
         <circle cx="74" cy="87" r="5" fill="#F59E0B" opacity="0.8" />
         <circle cx="90" cy="87" r="5" fill="#10B981" opacity="0.8" />
-        <text x="235" y="91" fill="#94A3B8" font-size="11" font-weight="500" text-anchor="middle" class="mono">pilot_cockpit_core.ascii</text>
+        <text x="235" y="91" fill="#38BDF8" font-size="11" font-weight="600" text-anchor="middle" class="mono">cockpit_hud_telemetry.ascii</text>
 
         <!-- ASCII Content Container with Scanline -->
         <g clip-path="url(#ascii-clip)">
           <!-- ASCII Lines Group with Line-by-Line Reveal Animation -->
-          <g transform="translate(55, 125)" fill="url(#ascii-grad)" class="mono" font-size="9.5" font-weight="700" letter-spacing="1.2">
+          <g transform="translate(50, 125)" fill="url(#ascii-grad)" class="mono" font-size="9" font-weight="700" letter-spacing="1.2">
             <g filter="url(#glow-light)">
               <text x="0" y="15" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.2s" fill="freeze" />
-                `.......::::::::::::::::.......`
+                ✈️  ===============================  ✈️
               </text>
               <text x="0" y="30" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.35s" fill="freeze" />
-                .::-========================-::.
+                /\     AIRSPEED: 460 KTS     /\
               </text>
               <text x="0" y="45" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.5s" fill="freeze" />
-                :-+888888888888888888888888+-:
+                /  \    ALTITUDE: 36,000 FT   /  \
               </text>
               <text x="0" y="60" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.65s" fill="freeze" />
-                :=888888888888888888888888888=:
+                /____\   HEADING : 280° NW    /____\
               </text>
               <text x="0" y="75" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.8s" fill="freeze" />
-                :8888888PP"""""""PP88888888888:
+                |  ||   AUTOPILOT: ENGAGED   ||  |
               </text>
               <text x="0" y="90" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.95s" fill="freeze" />
-                :88888P'             'Y8888888:
+                |--||------------------------||--|
               </text>
               <text x="0" y="105" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.1s" fill="freeze" />
-                :88888|   (o)   (o)   |8888888:
+                |  ||      __|__  __|_       ||  |
               </text>
               <text x="0" y="120" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.25s" fill="freeze" />
-                :88888|       &lt;       |8888888:
+                |  ||---o--(o)--o--o---      ||  |
               </text>
               <text x="0" y="135" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.4s" fill="freeze" />
-                :88888\    .-----.    /8888888:
+                |  ||      '---'             ||  |
               </text>
               <text x="0" y="150" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.55s" fill="freeze" />
-                :888888\  '-------'  /88888888:
+                |--||------------------------||--|
               </text>
               <text x="0" y="165" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.7s" fill="freeze" />
-                :=888888'-----------'88888888=:
+                \____/   NAV_SYSTEM: OK      \____/
               </text>
               <text x="0" y="180" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.85s" fill="freeze" />
-                :-+888888888888888888888888+-:
+                \  /    COMM_LINK: ACTIVE    \  /
               </text>
               <text x="0" y="195" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.0s" fill="freeze" />
-                .::-========================-::.
+                \/     RADAR_SWEEP: CLEAR    \/
               </text>
               <text x="0" y="210" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.15s" fill="freeze" />
-                `.......::::::::::::::::.......`
+                ✈️  ===============================  ✈️
               </text>
               <text x="0" y="235" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.3s" fill="freeze" />
-                [ROLE  ]: AVIATION_PILOT_✈️
+                [PILOT ]: SAFA_YAVAS (COMMANDER)
               </text>
               <text x="0" y="255" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.45s" fill="freeze" />
-                [STATUS]: TECH_PASSIONATE_MAKER
+                [STATUS]: FLIGHT_CREW_ACTIVE ✈️
               </text>
               <text x="0" y="275" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.6s" fill="freeze" />
-                [MODE  ]: CONTINUOUS_LEARNING
+                [HOBBY ]: TECH_&amp;_BUILDING_PROJECTS
               </text>
               <text x="0" y="295" opacity="0">
                 <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.75s" fill="freeze" />
-                &gt; BUILDING_PERSONAL_PROJECTS...
+                &gt; READY_FOR_TAKEOFF...
               </text>
             </g>
           </g>
@@ -274,7 +274,7 @@
       <circle cx="483" cy="87" r="5" fill="#EF4444" opacity="0.8" />
       <circle cx="499" cy="87" r="5" fill="#F59E0B" opacity="0.8" />
       <circle cx="515" cy="87" r="5" fill="#10B981" opacity="0.8" />
-      <text x="802" y="91" fill="#94A3B8" font-size="11" font-weight="500" text-anchor="middle" class="mono">safayvas_cockpit.sh</text>
+      <text x="802" y="91" fill="#94A3B8" font-size="11" font-weight="500" text-anchor="middle" class="mono">pilot_flight_log.sh</text>
 
       <!-- TERMINAL CONTENT -->
       <g transform="translate(490, 135)">
@@ -283,7 +283,7 @@
         <g opacity="0">
           <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.2s" fill="freeze" />
           <text x="0" y="0" fill="#94A3B8" font-size="14" font-weight="600" class="mono">
-            <tspan fill="#22D3EE">pilot@safayvas</tspan>:<tspan fill="#7C3AED">~</tspan>$ ./init_cockpit.sh
+            <tspan fill="#38BDF8">pilot@safayvas</tspan>:<tspan fill="#7C3AED">~</tspan>$ ./start_flight_log.sh
           </text>
           
           <text x="0" y="32" fill="#F8FAFC" font-size="28" font-weight="800" letter-spacing="-0.5">
@@ -298,35 +298,35 @@
           <!-- Phrase 1: Aviation Pilot -->
           <g opacity="0">
             <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="0.8s" />
-            <text x="20" y="0" fill="#22D3EE">Aviation Pilot ✈️</text>
-            <rect x="175" y="-13" width="9" height="17" fill="#22D3EE">
+            <text x="20" y="0" fill="#38BDF8">Aviation Pilot 👨‍✈️✈️</text>
+            <rect x="205" y="-13" width="9" height="17" fill="#38BDF8">
               <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
             </rect>
           </g>
 
-          <!-- Phrase 2: Self-Taught Tech Enthusiast -->
+          <!-- Phrase 2: Tech Hobbyist & Builder -->
           <g opacity="0">
             <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="3.8s" />
-            <text x="20" y="0" fill="#7C3AED">Self-Taught Tech Enthusiast</text>
-            <rect x="285" y="-13" width="9" height="17" fill="#7C3AED">
+            <text x="20" y="0" fill="#7C3AED">Tech Hobbyist &amp; Builder</text>
+            <rect x="240" y="-13" width="9" height="17" fill="#7C3AED">
               <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
             </rect>
           </g>
 
-          <!-- Phrase 3: Building Personal Products -->
+          <!-- Phrase 3: Learning Software & AI -->
           <g opacity="0">
             <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="6.8s" />
-            <text x="20" y="0" fill="#10B981">Building Personal Products</text>
-            <rect x="275" y="-13" width="9" height="17" fill="#10B981">
+            <text x="20" y="0" fill="#34D399">Learning Software &amp; AI</text>
+            <rect x="225" y="-13" width="9" height="17" fill="#34D399">
               <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
             </rect>
           </g>
 
-          <!-- Phrase 4: AI & Automation Explorer -->
+          <!-- Phrase 4: Building Side Projects -->
           <g opacity="0">
             <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.3;0.35;1" dur="12s" repeatCount="indefinite" begin="9.8s" />
-            <text x="20" y="0" fill="#F59E0B">AI &amp; Automation Explorer</text>
-            <rect x="250" y="-13" width="9" height="17" fill="#F59E0B">
+            <text x="20" y="0" fill="#F59E0B">Building Side Projects</text>
+            <rect x="235" y="-13" width="9" height="17" fill="#F59E0B">
               <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
             </rect>
           </g>
@@ -342,32 +342,32 @@
           <g opacity="0">
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.0s" fill="freeze" />
             <animateTransform attributeName="transform" type="translate" values="-10,0; 0,0" dur="0.4s" begin="1.0s" fill="freeze" />
-            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">✈️ Profession:</text>
-            <text x="130" y="0" fill="#F8FAFC">Aviation Pilot</text>
+            <text x="0" y="0" fill="#38BDF8" class="mono" font-weight="700">👨‍✈️ Profession:</text>
+            <text x="140" y="0" fill="#F8FAFC" font-weight="700">Aviation Pilot (Primary Profession)</text>
           </g>
 
-          <!-- Tech Journey -->
+          <!-- Tech Passion -->
           <g opacity="0" transform="translate(0, 24)">
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.2s" fill="freeze" />
             <animateTransform attributeName="transform" type="translate" values="-10,24; 0,24" dur="0.4s" begin="1.2s" fill="freeze" />
-            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">💡 Tech Journey:</text>
-            <text x="130" y="0" fill="#F8FAFC">Self-Taught &amp; Passionate Product Maker</text>
+            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">💡 Tech Hobby:</text>
+            <text x="140" y="0" fill="#F8FAFC">Self-Taught Creator (Not a Software Engineer)</text>
           </g>
 
-          <!-- Stack Tech -->
+          <!-- Current Stack -->
           <g opacity="0" transform="translate(0, 48)">
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.4s" fill="freeze" />
             <animateTransform attributeName="transform" type="translate" values="-10,48; 0,48" dur="0.4s" begin="1.4s" fill="freeze" />
-            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">⚡ Tech Stack:</text>
-            <text x="130" y="0" fill="#F8FAFC">Next.js, TypeScript, Supabase, Cloudflare, Docker</text>
+            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">⚡ Learning Stack:</text>
+            <text x="140" y="0" fill="#F8FAFC">Next.js, TypeScript, Supabase, Cloudflare, Docker</text>
           </g>
 
           <!-- Featured Work -->
           <g opacity="0" transform="translate(0, 72)">
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.6s" fill="freeze" />
             <animateTransform attributeName="transform" type="translate" values="-10,72; 0,72" dur="0.4s" begin="1.6s" fill="freeze" />
-            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">🚀 Key Products:</text>
-            <text x="130" y="0" fill="#22D3EE">HASILAT TUT • Stocker • Telegram Bot • Adet Takip</text>
+            <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">🚀 Personal Work:</text>
+            <text x="140" y="0" fill="#38BDF8">HASILAT TUT • Stocker • Telegram Bot • Adet Takip</text>
           </g>
 
           <!-- GitHub Profile -->
@@ -375,7 +375,7 @@
             <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.8s" fill="freeze" />
             <animateTransform attributeName="transform" type="translate" values="-10,96; 0,96" dur="0.4s" begin="1.8s" fill="freeze" />
             <text x="0" y="0" fill="#94A3B8" class="mono" font-weight="600">🌐 Repository:</text>
-            <text x="130" y="0" fill="#10B981">https://github.com/safayvs</text>
+            <text x="140" y="0" fill="#34D399">https://github.com/safayvs</text>
           </g>
         </g>
 
@@ -386,64 +386,59 @@
         <g transform="translate(0, 248)" opacity="0">
           <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.0s" fill="freeze" />
           
-          <text x="0" y="0" fill="#94A3B8" class="mono" font-size="12" font-weight="700" letter-spacing="1">STACK &amp; INTERESTS</text>
+          <text x="0" y="0" fill="#94A3B8" class="mono" font-size="12" font-weight="700" letter-spacing="1">MAIN FOCUS &amp; INTERESTS</text>
 
           <!-- Skill Pills Grid -->
           <g transform="translate(0, 15)">
             
             <g class="pill-hover" transform="translate(0, 0)">
-              <rect width="84" height="26" rx="13" fill="#0F172A" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.5" />
-              <text x="42" y="17" fill="#22D3EE" font-size="11" font-weight="600" text-anchor="middle" class="mono">Aviation✈️</text>
+              <rect width="135" height="26" rx="13" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5" />
+              <text x="67" y="17" fill="#38BDF8" font-size="11" font-weight="700" text-anchor="middle" class="mono">👨‍✈️ Aviation Pilot</text>
             </g>
 
-            <g class="pill-hover" transform="translate(92, 0)">
-              <rect width="70" height="26" rx="13" fill="#0F172A" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.4" />
-              <text x="35" y="17" fill="#22D3EE" font-size="11" font-weight="600" text-anchor="middle" class="mono">React</text>
+            <g class="pill-hover" transform="translate(143, 0)">
+              <rect width="70" height="26" rx="13" fill="#0F172A" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4" />
+              <text x="35" y="17" fill="#38BDF8" font-size="11" font-weight="600" text-anchor="middle" class="mono">React</text>
             </g>
 
-            <g class="pill-hover" transform="translate(170, 0)">
+            <g class="pill-hover" transform="translate(221, 0)">
               <rect width="76" height="26" rx="13" fill="#0F172A" stroke="#F8FAFC" stroke-width="1" stroke-opacity="0.4" />
               <text x="38" y="17" fill="#F8FAFC" font-size="11" font-weight="600" text-anchor="middle" class="mono">Next.js</text>
             </g>
 
-            <g class="pill-hover" transform="translate(254, 0)">
+            <g class="pill-hover" transform="translate(305, 0)">
               <rect width="94" height="26" rx="13" fill="#0F172A" stroke="#3178C6" stroke-width="1" stroke-opacity="0.6" />
               <text x="47" y="17" fill="#38BDF8" font-size="11" font-weight="600" text-anchor="middle" class="mono">TypeScript</text>
             </g>
 
-            <g class="pill-hover" transform="translate(356, 0)">
-              <rect width="84" height="26" rx="13" fill="#0F172A" stroke="#10B981" stroke-width="1" stroke-opacity="0.5" />
-              <text x="42" y="17" fill="#10B981" font-size="11" font-weight="600" text-anchor="middle" class="mono">Supabase</text>
+            <g class="pill-hover" transform="translate(407, 0)">
+              <rect width="84" height="26" rx="13" fill="#0F172A" stroke="#34D399" stroke-width="1" stroke-opacity="0.5" />
+              <text x="42" y="17" fill="#34D399" font-size="11" font-weight="600" text-anchor="middle" class="mono">Supabase</text>
             </g>
 
-            <g class="pill-hover" transform="translate(448, 0)">
+            <g class="pill-hover" transform="translate(0, 34)">
               <rect width="92" height="26" rx="13" fill="#0F172A" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.5" />
               <text x="46" y="17" fill="#F59E0B" font-size="11" font-weight="600" text-anchor="middle" class="mono">Cloudflare</text>
             </g>
 
-            <g class="pill-hover" transform="translate(0, 34)">
+            <g class="pill-hover" transform="translate(100, 34)">
               <rect width="74" height="26" rx="13" fill="#0F172A" stroke="#0284C7" stroke-width="1" stroke-opacity="0.5" />
               <text x="37" y="17" fill="#38BDF8" font-size="11" font-weight="600" text-anchor="middle" class="mono">Docker</text>
             </g>
 
-            <g class="pill-hover" transform="translate(82, 34)">
+            <g class="pill-hover" transform="translate(182, 34)">
               <rect width="58" height="26" rx="13" fill="#0F172A" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.5" />
               <text x="29" y="17" fill="#A78BFA" font-size="11" font-weight="600" text-anchor="middle" class="mono">PWA</text>
             </g>
 
-            <g class="pill-hover" transform="translate(148, 34)">
+            <g class="pill-hover" transform="translate(248, 34)">
               <rect width="84" height="26" rx="13" fill="#0F172A" stroke="#6366F1" stroke-width="1" stroke-opacity="0.5" />
               <text x="42" y="17" fill="#818CF8" font-size="11" font-weight="600" text-anchor="middle" class="mono">PostgreSQL</text>
             </g>
 
-            <g class="pill-hover" transform="translate(240, 34)">
-              <rect width="72" height="26" rx="13" fill="#0F172A" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5" />
-              <text x="36" y="17" fill="#38BDF8" font-size="11" font-weight="600" text-anchor="middle" class="mono">Python</text>
-            </g>
-
-            <g class="pill-hover" transform="translate(320, 34)">
-              <rect width="88" height="26" rx="13" fill="#0F172A" stroke="#10B981" stroke-width="1" stroke-opacity="0.5" />
-              <text x="44" y="17" fill="#34D399" font-size="11" font-weight="600" text-anchor="middle" class="mono">Automation</text>
+            <g class="pill-hover" transform="translate(340, 34)">
+              <rect width="115" height="26" rx="13" fill="#0F172A" stroke="#34D399" stroke-width="1" stroke-opacity="0.5" />
+              <text x="57" y="17" fill="#34D399" font-size="11" font-weight="600" text-anchor="middle" class="mono">Self-Taught Dev</text>
             </g>
 
           </g>
@@ -462,7 +457,7 @@
           <!-- LinkedIn Icon Link -->
           <g class="pill-hover" transform="translate(48, 0)">
             <circle cx="16" cy="16" r="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
-            <path d="M11.5 11H9.5V21H11.5V11ZM10.5 8C9.8 8 9.25 8.55 9.25 9.25C9.25 9.95 9.8 10.5 10.5 10.5C11.2 10.5 11.75 9.95 11.75 9.25C11.75 8.55 11.2 8 10.5 8ZM21.5 14.8C21.5 12.2 19.8 11 17.8 11C16.3 11 15.3 11.8 14.8 12.5V11H13V21H15V15.8C15 14.4 15.8 13.2 17.1 13.2C18.4 13.2 18.8 14.2 18.8 15.7V21H20.8V14.8H21.5Z" fill="#22D3EE" />
+            <path d="M11.5 11H9.5V21H11.5V11ZM10.5 8C9.8 8 9.25 8.55 9.25 9.25C9.25 9.95 9.8 10.5 10.5 10.5C11.2 10.5 11.75 9.95 11.75 9.25C11.75 8.55 11.2 8 10.5 8ZM21.5 14.8C21.5 12.2 19.8 11 17.8 11C16.3 11 15.3 11.8 14.8 12.5V11H13V21H15V15.8C15 14.4 15.8 13.2 17.1 13.2C18.4 13.2 18.8 14.2 18.8 15.7V21H20.8V14.8H21.5Z" fill="#38BDF8" />
           </g>
 
           <!-- Twitter / X Icon Link -->
@@ -474,7 +469,7 @@
           <!-- Portfolio / Globe Icon Link -->
           <g class="pill-hover" transform="translate(144, 0)">
             <circle cx="16" cy="16" r="16" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
-            <path d="M16 8C11.6 8 8 11.6 8 16C8 20.4 11.6 24 16 24C20.4 24 24 20.4 24 16C24 11.6 20.4 8 16 8ZM16 9.8C17.2 9.8 18.7 11.9 19.3 16H12.7C13.3 11.9 14.8 9.8 16 9.8ZM9.8 16C10.2 13.2 11.1 10.9 12.1 9.8C10.4 11 9.4 13.3 9.8 16ZM12.1 22.2C11.1 21.1 10.2 18.8 9.8 16H12.7C13.3 20.1 14.8 22.2 16 22.2C17.2 22.2 18.7 20.1 19.3 16H22.2C21.8 18.8 20.9 21.1 19.9 22.2C18.8 23.3 17.5 24 16 24C14.5 24 13.2 23.3 12.1 22.2Z" fill="#10B981" />
+            <path d="M16 8C11.6 8 8 11.6 8 16C8 20.4 11.6 24 16 24C20.4 24 24 20.4 24 16C24 11.6 20.4 8 16 8ZM16 9.8C17.2 9.8 18.7 11.9 19.3 16H12.7C13.3 11.9 14.8 9.8 16 9.8ZM9.8 16C10.2 13.2 11.1 10.9 12.1 9.8C10.4 11 9.4 13.3 9.8 16ZM12.1 22.2C11.1 21.1 10.2 18.8 9.8 16H12.7C13.3 20.1 14.8 22.2 16 22.2C17.2 22.2 18.7 20.1 19.3 16H22.2C21.8 18.8 20.9 21.1 19.9 22.2C18.8 23.3 17.5 24 16 24C14.5 24 13.2 23.3 12.1 22.2Z" fill="#34D399" />
           </g>
 
         </g>
